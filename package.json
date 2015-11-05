@@ -1,0 +1,27 @@
+{
+    "name": "enterprise-data",
+    "preferGlobal": false,
+    "version": "0.2.0",
+    "author": "NODEJS ENTERPRISE - Matus Szabo <matthew@nodejsenterprise.com>",
+    "description": "Group, synchronize, compare data feeds",
+    "main": "./index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nodejs-enterprise/data"
+    },
+    "keywords": [
+        "data",
+        "etl",
+        "integrity"
+    ],
+    "dependencies" : {
+        "enterprise-utils": "*"
+    },
+    "analyze": false,
+    "devDependencies":{ },
+    "bundledDependencies": [],  
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.11"
+    }
+}
