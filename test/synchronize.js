@@ -9,7 +9,7 @@ var opts = {
     keyName: 'id',
     sourceRead: function(i, cb){
         id = 2;
-        if(i===0) cb([
+        if(i===0) cb(null, [
             { id: id+1 },
             { id: id+2 },
             { id: id+3 },
@@ -17,17 +17,17 @@ var opts = {
             { id: id+5 },
             { id: id+5 }
         ]);
-        else cb([]);
+        else cb(null, []);
     },
     destRead: function(i, cb){
-        if(i===0) cb([
+        if(i===0) cb(null, [
             {id:1},
             {id:2},
             //{id:3},
             {id:4},
             {id:5}
         ]);
-        else cb([]);
+        else cb(null, []);
     },
     chunkSize: 5,
     decideUpdate: function(sourceItem, destItem){

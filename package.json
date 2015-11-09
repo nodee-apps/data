@@ -1,7 +1,7 @@
 {
     "name": "enterprise-data",
     "preferGlobal": false,
-    "version": "0.2.2",
+    "version": "0.2.3",
     "author": "NODEJS ENTERPRISE - Matus Szabo <matthew@nodejsenterprise.com>",
     "description": "Group, synchronize, compare data feeds",
     "main": "./index.js",

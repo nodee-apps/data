@@ -8,7 +8,7 @@ var opts = {
     chunkSize: 5,
     sourceRead: function(i, cb){
         //console.log('reading source i=' + i);
-        if(i===0) cb([
+        if(i===0) cb(null, [
             { id:'5', t:'a'},
             { id:'61704', t:'a'},
             { id:'61705', t:'a'},
@@ -22,7 +22,7 @@ var opts = {
             { id:'62080', t:'d'}
         ]);
         
-        if(i>0) cb([]);
+        if(i>0) cb(null, []);
     },
     onGroup: function(key, group, next){
         groups[key] = group;
