@@ -1,13 +1,13 @@
 {
-    "name": "enterprise-data",
+    "name": "nodee-data",
     "preferGlobal": false,
-    "version": "0.2.3",
-    "author": "NODEJS ENTERPRISE - Matus Szabo <matthew@nodejsenterprise.com>",
+    "version": "0.3.0",
+    "author": "NODEE - Matus Szabo <matus@nodee.io>",
     "description": "Group, synchronize, compare data feeds",
     "main": "./index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/nodejs-enterprise/data"
+        "url": "https://github.com/nodee-apps/data"
     },
     "keywords": [
         "data",
