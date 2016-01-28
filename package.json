@@ -15,7 +15,7 @@
         "integrity"
     ],
     "dependencies" : {
-        "enterprise-utils": "*"
+        "nodee-utils": "*"
     },
     "analyze": false,
     "devDependencies":{ },
