@@ -1,7 +1,7 @@
 {
     "name": "nodee-data",
     "preferGlobal": false,
-    "version": "0.3.0",
+    "version": "0.3.1",
     "author": "NODEE - Matus Szabo <matus@nodee.io>",
     "description": "Group, synchronize, compare data feeds",
     "main": "./index.js",
@@ -15,7 +15,7 @@
         "integrity"
     ],
     "dependencies" : {
-        "nodee-utils": "*"
+        "nodee-utils": "latest"
     },
     "analyze": false,
     "devDependencies":{ },
